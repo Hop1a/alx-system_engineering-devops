@@ -1,0 +1,2 @@
+#!/bin/bash
+cat | tai -n +2 | cut -fi | sort | unique -c | sort -nr | head -n11 | rev | cut -d" " -fi | rev
